@@ -5,10 +5,10 @@
     justify-items: stretch;
     margin-top: 20vh;
     margin-bottom: 20vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    height: 60vh;
-    width: 60vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    height: 40vw;
+    width: 40vw;
   }
 
   .item {
@@ -28,7 +28,10 @@
   }
 
   .btn {
-    margin-right: 40vw;
-    margin-left: 40vw;
     align-items: center;
+  }
+
+  .header {
+      display: flex;
+      justify-content: center;
   }
