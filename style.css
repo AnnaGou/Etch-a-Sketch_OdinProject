@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-items: stretch;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    height: 60vh;
+    width: 60vh;
+  }
+
+  .item {
+    display: grid;
+    background-color: aquamarine;
+    width: auto;
+    height: auto;
+    
+  }
+
+  .itemDarker {
+    display: grid;
+    background-color: cadetblue;
+    width: auto;
+    height: auto;
+    
+  }
+
+  .btn {
+    margin-right: 40vw;
+    margin-left: 40vw;
+    align-items: center;
+  }
